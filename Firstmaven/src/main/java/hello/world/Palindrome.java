@@ -19,12 +19,12 @@ public class Palindrome {
 		if (s.equals(rev))
 		{
 			System.out.println("the string is palindrome");
-			System.out.println("the string is palindrome");
+			
 		}
 		else 
 		{
 			System.out.println("the string is not palindrome");
-			System.out.println("the string is not palindrome");
+			
 		}
 		
 	}
