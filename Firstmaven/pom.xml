@@ -20,9 +20,14 @@
 <artifactId>exec-maven-plugin</artifactId>
 <version>3.1.0</version>
 <configuration>
-<mainClass>hello.world.HelloWorld</mainClass>
+<mainClass>hello.world.Hello</mainClass>
 </configuration>
 </plugin>
 </plugins>
 </build>
+<properties>
+ <maven.compiler.source>17</maven.compiler.source>
+ <maven.compiler.target>17</maven.compiler.target>
+</properties>
+
 </project>
